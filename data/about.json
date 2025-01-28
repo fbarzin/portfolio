@@ -2,5 +2,15 @@
   "name": "Farzad Barzin",
   "title": "Full Stack Software Engineer",
   "tagline": "I'm a Full Stack Software Engineer with a passion for building mobile and web applications and solving problems.",
-  "description": "I'm a Full Stack Software Engineer with a passion for building mobile and web applications and solving problems. I have experience in building and deploying web applications using React, Node.js, Express, and MongoDB. I have also built mobile applications using React Native and deployed them to the App Store and Google Play Store. I am always looking to learn new technologies and improve my skills."
+  "description": "I'm a Full Stack Software Engineer with a passion for building mobile and web applications and solving problems. I have experience in building and deploying web applications using React, Node.js, Express, and MongoDB. I have also built mobile applications using React Native and deployed them to the App Store and Google Play Store. I am always looking to learn new technologies and improve my skills.",
+  "cats": [
+    "/images/stevie.jpg",
+    "/images/selena.jpg",
+    "/images/sasha.jpg",
+    "/images/sasha-2.jpg",
+    "/images/babies.jpg"
+  ],
+  "linkedin": "https://www.linkedin.com/in/farzad-barzin/",
+  "twitter": "https://x.com/farzadbarzin",
+  "github": "https://github.com/fbarzin"
 }
