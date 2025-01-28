@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "company": "BEX Realty",
+    "position": "Staff Software Engineer",
+    "startDate": "July 2021",
+    "endDate": "February 2024",
+    "description": "Description 1",
+    "location": "Boca Raton, FL (Remote)",
+    "website": "https://www.bexrealty.com",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Firebase",
+      "Node.js",
+      "FeathersJS",
+      "Postgres",
+      "NestJS",
+      "GraphQL",
+      "Hasura",
+      "Nuxt",
+      "Vue",
+      "TypeScript",
+      "JavaScript",
+      "GCP",
+      "Docker"
+    ],
+    "products": ["BEX Realty Mobile Apps", "Agent CRM", "Lead Market App"]
+  },
+  {
+    "id": 2,
+    "company": "BEX Realty",
+    "position": "Senior Software Engineer",
+    "startDate": "June 2018",
+    "endDate": "July 2021",
+    "description": "Description 2",
+    "location": "Boca Raton, FL",
+    "website": "https://www.bexrealty.com",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Kotlin",
+      "Ktor",
+      "Node.js",
+      "FeathersJS",
+      "MySQL",
+      "Nuxt",
+      "Vue",
+      "JavaScript",
+      "Vuetify",
+      "GCP",
+      "Docker"
+    ],
+    "products": ["Agent App", "BEX Realty Messenger", "BEX Realty Website"]
+  },
+  {
+    "id": 3,
+    "company": "Chewy",
+    "position": "Lead Software Engineer - Android",
+    "startDate": "October 2016",
+    "endDate": "June 2018",
+    "description": "Description 3",
+    "location": "Dania Beach, FL",
+    "website": "https://www.chewy.com",
+    "tags": [
+      "Android",
+      "Kotlin",
+      "Java",
+      "RxJava",
+      "Retrofit",
+      "Dagger",
+      "Espresso",
+      "Mockito"
+    ],
+    "products": ["Chewy Android App"]
+  },
+  {
+    "id": 4,
+    "company": "Charter Communications",
+    "position": "Android Developer",
+    "startDate": "May 2016",
+    "endDate": "October 2016",
+    "description": "Description 4",
+    "location": "Denver, CO (Remote)",
+    "website": "https://www.spectrum.com",
+    "tags": ["Android", "Java", "DRM"],
+    "products": ["Spectrum TV Android App"]
+  },
+  {
+    "id": 5,
+    "company": "Bright House Networks",
+    "position": "Android Developer",
+    "startDate": "June 2014",
+    "endDate": "May 2016",
+    "description": "Description 5",
+    "location": "Tampa, FL",
+    "website": "https://www.brighthouse.com",
+    "tags": ["Android", "Java", "DRM"],
+    "products": ["Bright House TV Android App"]
+  }
+]

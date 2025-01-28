@@ -9,7 +9,7 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 
 const items = [
-  { name: 'Home', href: '/' },
+  { name: 'About', href: '#about' },
   { name: 'Experience', href: '#experience' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },

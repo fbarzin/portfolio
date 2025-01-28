@@ -1,0 +1,140 @@
+[
+  {
+    "skill": "Flutter",
+    "level": 5,
+    "freshness": 5,
+    "website": "https://flutter.dev"
+  },
+  {
+    "skill": "Dart",
+    "level": 5,
+    "freshness": 5,
+    "website": "https://dart.dev"
+  },
+  {
+    "skill": "BLoC",
+    "level": 5,
+    "freshness": 5,
+    "website": "https://bloclibrary.dev"
+  },
+  {
+    "skill": "Firebase",
+    "level": 3,
+    "freshness": 5,
+    "website": "https://firebase.google.com"
+  },
+  {
+    "skill": "Node.js",
+    "level": 4,
+    "freshness": 5,
+    "website": "https://nodejs.org"
+  },
+  {
+    "skill": "FeathersJS",
+    "level": 3,
+    "freshness": 4,
+    "website": "https://feathersjs.com"
+  },
+  {
+    "skill": "Postgres",
+    "level": 3,
+    "freshness": 4,
+    "website": "https://www.postgresql.org"
+  },
+  {
+    "skill": "MongoDB",
+    "level": 3,
+    "freshness": 4,
+    "website": "https://www.mongodb.com"
+  },
+  {
+    "skill": "NestJS",
+    "level": 5,
+    "freshness": 4,
+    "website": "https://nestjs.com"
+  },
+  {
+    "skill": "GraphQL",
+    "level": 4,
+    "freshness": 2,
+    "website": "https://graphql.org"
+  },
+  {
+    "skill": "Hasura",
+    "level": 3,
+    "freshness": 2,
+    "website": "https://hasura.io"
+  },
+  {
+    "skill": "Nuxt",
+    "level": 3,
+    "freshness": 1,
+    "website": "https://nuxtjs.org"
+  },
+  {
+    "skill": "Vue",
+    "level": 3,
+    "freshness": 1,
+    "website": "https://vuejs.org"
+  },
+  {
+    "skill": "TypeScript",
+    "level": 4,
+    "freshness": 5,
+    "website": "https://www.typescriptlang.org"
+  },
+  {
+    "skill": "JavaScript",
+    "level": 4,
+    "freshness": 5,
+    "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "skill": "GCP",
+    "level": 2,
+    "freshness": 3,
+    "website": "https://cloud.google.com"
+  },
+  {
+    "skill": "Kotlin",
+    "level": 3,
+    "freshness": 3,
+    "website": "https://kotlinlang.org"
+  },
+  {
+    "skill": "Ktor",
+    "level": 2,
+    "freshness": 1,
+    "website": "https://ktor.io"
+  },
+  {
+    "skill": "MySQL",
+    "level": 3,
+    "freshness": 3,
+    "website": "https://www.mysql.com"
+  },
+  {
+    "skill": "Vuetify",
+    "level": 3,
+    "freshness": 1,
+    "website": "https://vuetifyjs.com"
+  },
+  {
+    "skill": "Tailwind CSS",
+    "level": 4,
+    "freshness": 5,
+    "website": "https://tailwindcss.com"
+  },
+  {
+    "skill": "Next.js",
+    "level": 3,
+    "freshness": 5,
+    "website": "https://nextjs.org"
+  },
+  {
+    "skill": "React",
+    "level": 3,
+    "freshness": 5,
+    "website": "https://reactjs.org"
+  }
+]
