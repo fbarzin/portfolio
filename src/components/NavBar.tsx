@@ -70,7 +70,7 @@ function NavBar() {
       <Button
         variant="default"
         onClick={() => (window.location.href = 'mailto:farzadbarzin@gmail.com')}
-        className="ml-auto text-sm font-semibold"
+        className="ml-auto text-sm font-semibold text-white"
       >
         Contact Me
       </Button>
