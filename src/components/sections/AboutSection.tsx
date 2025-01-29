@@ -1,13 +1,13 @@
 import React from 'react';
 import data from '../../../data/about.json';
-import CatImagesCarousel from '../CatImagesCarousel';
+import ImagesCarousel from '../ImagesCarousel';
 import Image from 'next/image';
 import SocialIcons from '../SocialIcons';
 
 function AboutSection() {
   return (
     <section id="about">
-      <div className="grid grid-cols-1 gap-14 text-center sm:grid-cols-5 sm:text-left">
+      <div className="grid grid-cols-1 gap-14 text-center sm:text-left lg:grid-cols-5">
         <div className="flex flex-col items-center sm:col-span-2">
           <Image
             src="/images/farzad.jpg"
@@ -28,9 +28,12 @@ function AboutSection() {
             email={data.email}
           />
         </div>
-        <div className="sm:col-span-3">{data.description}</div>
+        <div
+          className="sm:col-span-3"
+          dangerouslySetInnerHTML={{ __html: data.description }}
+        />
       </div>
-      <CatImagesCarousel images={data.cats} className="mt-16" />
+      <ImagesCarousel images={data.cats} className="mt-16" />
     </section>
   );
 }

@@ -16,7 +16,7 @@ export interface CatImagesCarouselProps
   images: string[];
 }
 
-export function CatImagesCarousel({
+export function ImagesCarousel({
   className,
   images,
   ...props
@@ -31,14 +31,17 @@ export function CatImagesCarousel({
     >
       <CarouselContent>
         {images.map((image, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
+          <CarouselItem
+            key={index}
+            className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
+          >
+            <div className="p-2">
               <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-0">
+                <CardContent className="flex aspect-square transform items-center justify-center p-0 transition-transform hover:scale-105 hover:rounded-lg">
                   <Image
                     src={image}
                     alt={`Cat ${index}`}
-                    className="transform rounded-lg transition-transform hover:scale-105"
+                    className="h-full w-full rounded-xl object-cover"
                     width={400}
                     height={400}
                   />
@@ -54,4 +57,4 @@ export function CatImagesCarousel({
   );
 }
 
-export default CatImagesCarousel;
+export default ImagesCarousel;

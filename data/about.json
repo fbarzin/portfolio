@@ -2,7 +2,7 @@
   "name": "Farzad Barzin",
   "title": "Full Stack Software Engineer",
   "tagline": "I'm a Full Stack Software Engineer with a passion for building mobile and web applications and solving problems.",
-  "description": "I'm a Full Stack Software Engineer with a passion for building mobile and web applications and solving problems. I have experience in building and deploying web applications using React, Node.js, Express, and MongoDB. I have also built mobile applications using React Native and deployed them to the App Store and Google Play Store. I am always looking to learn new technologies and improve my skills.",
+  "description": "Hey there! I’m <b>Farzad</b>, a <b>Staff Software Engineer</b> passionate about <b>full-stack development</b> and building high-performance web and mobile applications. I specialize in <b>Flutter</b>, <b>NestJS</b>, <b>Next.js</b>, and a variety of databases, creating scalable and intuitive digital experiences. <br /> I love tackling complex engineering challenges, mentoring developers, and bringing ideas to life through clean, efficient code. When I’m not coding, you’ll likely find me watching <b>FC Barcelona</b>, playing soccer, or geeking out over history and cultures. <br />But let’s talk about the real stars of the show—my three cats: <b>Selena, Stevie, and Sasha</b>. Selena and Stevie were tiny kittens when we adopted them in Costa Rica, and they’ve been ruling the house ever since. Sasha, the scrappy street queen, joined us after we found her in Philadelphia, and she’s been keeping everyone in check.",
   "cats": [
     "/images/stevie.jpg",
     "/images/selena.jpg",
@@ -13,5 +13,5 @@
   "linkedin": "https://www.linkedin.com/in/farzad-barzin/",
   "twitter": "https://x.com/farzadbarzin",
   "github": "https://github.com/fbarzin",
-  "email": "fbarzin84@gmail.com"
+  "email": "farzadbarzin@gmail.com"
 }
