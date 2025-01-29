@@ -25,7 +25,7 @@ function AboutSection() {
             github={data.github}
             bluesky={undefined}
             website={undefined}
-            email={data.email}
+            email={undefined}
           />
         </div>
         <div
