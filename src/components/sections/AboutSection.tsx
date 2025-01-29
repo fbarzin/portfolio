@@ -17,7 +17,7 @@ function AboutSection() {
             className="rounded-full border border-gray-800"
           />
           <h1 className="mt-4 text-5xl font-extrabold">{data.name}</h1>
-          <p className="mt-4 text-xl text-gray-300">{data.title}</p>
+          <p className="mt-2 text-xl text-gray-300">{data.title}</p>
           <SocialIcons
             twitter={data.twitter}
             linkedin={data.linkedin}
@@ -25,6 +25,7 @@ function AboutSection() {
             github={data.github}
             bluesky={undefined}
             website={undefined}
+            email={data.email}
           />
         </div>
         <div className="sm:col-span-3">{data.description}</div>

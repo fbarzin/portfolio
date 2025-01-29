@@ -17,9 +17,6 @@ function SkillBadge({ skillBadge }: { skillBadge: SkillBadge }) {
         <div className="bg-sky-800/50 px-2 py-1 text-sm text-gray-200">
           {convertSkillLevelToString(skillBadge.level)}
         </div>
-        <div className="px-2 py-1 text-sm text-gray-300">
-          {convertFreshnessToString(skillBadge.freshness)}
-        </div>
       </div>
     </a>
   );
@@ -33,39 +30,17 @@ function SkillBadge({ skillBadge }: { skillBadge: SkillBadge }) {
 function convertSkillLevelToString(level: number): string {
   switch (level) {
     case 1:
-      return 'Beginner';
+      return 'Just Started';
     case 2:
-      return 'Intermediate';
+      return 'Beginner';
     case 3:
-      return 'Advanced';
+      return 'Intermediate';
     case 4:
-      return 'Expert';
+      return 'Advanced';
     case 5:
-      return 'Guru';
+      return 'Expert';
     default:
       return 'Unknown';
-  }
-}
-
-/**
- * Converts the freshness level to a string
- * @param level 1-5
- * @returns
- */
-function convertFreshnessToString(level: number): string {
-  switch (level) {
-    case 1:
-      return 'Rusty 🏜️';
-    case 2:
-      return 'Dusty 🏚️';
-    case 3:
-      return 'Fresh 🌱';
-    case 4:
-      return 'Sharp 🗡️';
-    case 5:
-      return 'Cutting Edge 🪓';
-    default:
-      return 'Unknown ❓';
   }
 }
 

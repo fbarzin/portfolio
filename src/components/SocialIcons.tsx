@@ -6,7 +6,7 @@ import {
   FaGithubSquare,
   FaGlobe,
 } from 'react-icons/fa';
-import { FaBluesky } from 'react-icons/fa6';
+import { FaBluesky, FaEnvelope } from 'react-icons/fa6';
 
 export type SocialIconsProps = {
   twitter: string | undefined;
@@ -15,6 +15,7 @@ export type SocialIconsProps = {
   github: string | undefined;
   bluesky: string | undefined;
   website: string | undefined;
+  email: string | undefined;
 };
 
 const SocialIcons = ({
@@ -24,6 +25,7 @@ const SocialIcons = ({
   github,
   bluesky,
   website,
+  email,
 }: SocialIconsProps) => {
   return (
     <div className="mt-4 flex justify-center space-x-4">
@@ -55,6 +57,11 @@ const SocialIcons = ({
       {website && (
         <a href={website} target="_blank" rel="noopener noreferrer">
           <FaGlobe className="text-3xl text-slate-400 hover:text-slate-600" />
+        </a>
+      )}
+      {email && (
+        <a href={`mailto:${email}`}>
+          <FaEnvelope className="text-3xl text-blue-500 hover:text-blue-700" />
         </a>
       )}
     </div>
