@@ -15,7 +15,7 @@ export type Experience = {
 function ExperienceCard({ experience }: { experience: Experience }) {
   return (
     <a href={experience.website} target="_blank" rel="noreferrer">
-      <div className="group rounded-lg p-4 transition duration-300 hover:border hover:border-gray-700 hover:bg-gray-900 hover:shadow-lg">
+      <div className="group rounded-lg border border-gray-800 p-4 transition duration-300 hover:border hover:border-gray-700 hover:bg-gray-900 hover:shadow-lg">
         <div>
           <h3 className="mb-1 text-xl font-bold group-hover:text-sky-400">
             {experience.company}
@@ -24,10 +24,11 @@ function ExperienceCard({ experience }: { experience: Experience }) {
           <p className="text-sm text-gray-400">
             {experience.startDate} - {experience.endDate}
           </p>
-          <p className="mt-4 text-base text-gray-400">
-            {experience.description}
-          </p>
-          <div className="mt-4 text-sm font-semibold text-sky-400/80">
+          <p
+            className="mt-4 text-base text-gray-400"
+            dangerouslySetInnerHTML={{ __html: experience.description }}
+          ></p>
+          <div className="mt-4 text-xs font-semibold text-gray-400/80">
             Technologies
           </div>
           <div className="mt-1 flex flex-row flex-wrap gap-2">
@@ -40,7 +41,7 @@ function ExperienceCard({ experience }: { experience: Experience }) {
               </span>
             ))}
           </div>
-          <div className="mt-4 text-sm font-semibold text-emerald-400/80">
+          <div className="mt-4 text-xs font-semibold text-gray-400/80">
             Products
           </div>
           <div className="mt-1 flex flex-row flex-wrap gap-2">

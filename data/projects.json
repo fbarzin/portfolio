@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "BEX Realty Mobile Apps",
+    "company": "BEX Realty",
+    "description": "",
+    "platforms": ["iOS", "Android"],
+    "role": "Head of Mobile Development",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Firebase",
+      "Google Maps API",
+      "Clean Architecture"
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "name": "Task 1",
+        "description": "This is task 1"
+      },
+      {
+        "id": 2,
+        "name": "Task 2",
+        "description": "This is task 2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Agent CRM",
+    "company": "BEX Realty",
+    "description": "This is project 2",
+    "platforms": ["iOS", "Android", "Web"],
+    "role": "Product Lead, Team Lead, Mobile Architect, Backend Engineer, Frontend Engineer",
+    "tasks": [
+      {
+        "id": 1,
+        "name": "Task 1",
+        "description": "This is task 1"
+      },
+      {
+        "id": 2,
+        "name": "Task 2",
+        "description": "This is task 2"
+      }
+    ]
+  }
+]
