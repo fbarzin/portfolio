@@ -26,6 +26,7 @@ function AboutSection() {
             bluesky={undefined}
             website={undefined}
             email={undefined}
+            goodreads={data.goodreads}
           />
         </div>
         <div

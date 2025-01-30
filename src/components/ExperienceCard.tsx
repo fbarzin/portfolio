@@ -24,10 +24,10 @@ function ExperienceCard({ experience }: { experience: Experience }) {
           <p className="text-sm text-gray-400">
             {experience.startDate} - {experience.endDate}
           </p>
-          <p
+          <div
             className="mt-4 text-base text-gray-400"
             dangerouslySetInnerHTML={{ __html: experience.description }}
-          ></p>
+          />
           <div className="mt-4 text-xs font-semibold text-gray-400/80">
             Technologies
           </div>
