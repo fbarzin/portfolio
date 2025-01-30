@@ -3,7 +3,7 @@ import React from 'react';
 function ProjectsSection() {
   return (
     <section id="projects" className="flex flex-col items-start justify-center">
-      <h2 className="text-4xl font-bold">Projects</h2>
+      <h2 className="my-8 text-start text-5xl font-extrabold">Projects</h2>
       <div className="flex flex-col items-center justify-center gap-4">
         <div className="flex flex-col items-center justify-center gap-2">
           <h3 className="text-2xl font-bold">Project 1</h3>

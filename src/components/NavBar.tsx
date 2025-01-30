@@ -12,8 +12,8 @@ import { Button } from './ui/button';
 
 const items = [
   { name: 'About', href: '#about' },
-  { name: 'Experience', href: '#experience' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Experience', href: '#experience' },
   // { name: 'Projects', href: '#projects' },
 ];
 

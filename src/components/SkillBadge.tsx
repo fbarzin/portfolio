@@ -9,11 +9,11 @@ export type SkillBadge = {
 function SkillBadge({ skillBadge }: { skillBadge: SkillBadge }) {
   return (
     <a href={skillBadge.website} target="_blank" rel="noreferrer">
-      <div className="flex flex-row items-center rounded-lg border border-sky-900 bg-gray-900">
-        <div className="rounded-l-md bg-gray-800 px-2 py-1 text-sm font-semibold">
+      <div className="flex flex-row items-center rounded-lg border border-sky-900">
+        <div className="rounded-l-md bg-sky-900 px-2 py-1 text-sm font-semibold">
           {skillBadge.skill}
         </div>
-        <div className="bg-sky-800/50 px-2 py-1 text-sm text-gray-200">
+        <div className="rounded-r-md bg-sky-300 px-2 py-1 text-sm font-semibold text-black">
           {convertSkillLevelToString(skillBadge.level)}
         </div>
       </div>
