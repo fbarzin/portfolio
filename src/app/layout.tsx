@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Farzad Barzin',
   description:
-    'Farzad Barzin is a software engineer based in Philadelphia, USA.',
+    'Farzad Barzin is a Full Stack Software Engineer based in Philadelphia, USA.',
 };
 
 export default function RootLayout({

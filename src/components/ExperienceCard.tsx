@@ -25,7 +25,7 @@ function ExperienceCard({ experience }: { experience: Experience }) {
             {experience.startDate} - {experience.endDate}
           </p>
           <div
-            className="mt-4 text-base text-gray-400"
+            className="mt-4 text-base text-gray-400 group-hover:text-gray-300"
             dangerouslySetInnerHTML={{ __html: experience.description }}
           />
           <div className="mt-4 text-xs font-semibold text-gray-400/80">
