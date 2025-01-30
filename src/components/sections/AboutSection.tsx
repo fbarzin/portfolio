@@ -34,7 +34,12 @@ function AboutSection() {
           dangerouslySetInnerHTML={{ __html: data.description }}
         />
       </div>
-      <ImagesCarousel images={data.cats} className="mt-16" />
+      <ImagesCarousel
+        images={data.cats}
+        width={400}
+        height={400}
+        className="mt-16"
+      />
     </section>
   );
 }

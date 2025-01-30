@@ -1,6 +1,6 @@
 import ExperienceSection from '@/components/sections/ExperienceSection';
 import AboutSection from '@/components/sections/AboutSection';
-// import ProjectsSection from '@/components/sections/ProjectsSection';
+import ProjectsSection from '@/components/sections/ProjectsSection';
 import SkillsSection from '@/components/sections/SkillsSection';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <ExperienceSection />
-        {/* <ProjectsSection /> */}
+        <ProjectsSection />
       </main>
     </div>
   );

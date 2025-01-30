@@ -14,11 +14,15 @@ import { cn } from '@/lib/utils';
 export interface CatImagesCarouselProps
   extends React.HTMLAttributes<HTMLDivElement> {
   images: string[];
+  width: number;
+  height: number;
 }
 
 export function ImagesCarousel({
   className,
   images,
+  width = 400,
+  height = 400,
   ...props
 }: CatImagesCarouselProps) {
   return (
@@ -37,13 +41,13 @@ export function ImagesCarousel({
           >
             <div className="p-2">
               <Card>
-                <CardContent className="flex aspect-square transform items-center justify-center p-0 transition-transform hover:scale-105 hover:rounded-lg">
+                <CardContent className="flex aspect-auto transform items-center justify-center p-0 transition-transform hover:scale-105 hover:rounded-lg">
                   <Image
                     src={image}
                     alt={`Cat ${index}`}
                     className="h-full w-full rounded-xl object-cover"
-                    width={400}
-                    height={400}
+                    width={width}
+                    height={height}
                   />
                 </CardContent>
               </Card>

@@ -1,11 +1,24 @@
 [
   {
     "id": 1,
-    "name": "BEX Realty Mobile Apps",
+    "name": "BEXRealty.com",
     "company": "BEX Realty",
-    "description": "",
-    "platforms": ["iOS", "Android"],
-    "role": "Head of Mobile Development",
+    "description": "<div><p>The BEX Realty platform serves over <strong>1.5 million monthly active users</strong> across web and mobile, delivering a seamless real estate search experience. Initially contributing to the website development, I later took the lead in designing and developing the mobile applications, ensuring full feature parity with the web platform while introducing additional enhancements.</p><p>The mobile apps were architected using <strong>Flutter, Clean Architecture, and BLoC</strong>, enabling efficient cross-platform development for both Android and iOS. Implementing a robust <strong>CI/CD pipeline</strong> streamlined the development process, allowing for rapid iteration and continuous delivery. This approach accelerated feature development, quickly aligning the mobile experience with the website while introducing unique functionalities such as <strong>recent searches, light and dark mode, and advanced map capabilities</strong> to enhance user engagement.</p></div>",
+    "platforms": [
+      {
+        "name": "iOS",
+        "url": "https://apps.apple.com/us/app/bex-realty/id1539780134"
+      },
+      {
+        "name": "Android",
+        "url": "https://play.google.com/store/apps/details?id=com.bexrealty.mobile"
+      },
+      {
+        "name": "Web",
+        "url": "https://www.bexrealty.com"
+      }
+    ],
+    "role": "Head of Mobile Applications",
     "technologies": [
       "Flutter",
       "Dart",
@@ -14,37 +27,106 @@
       "Google Maps API",
       "Clean Architecture"
     ],
-    "tasks": [
-      {
-        "id": 1,
-        "name": "Task 1",
-        "description": "This is task 1"
-      },
-      {
-        "id": 2,
-        "name": "Task 2",
-        "description": "This is task 2"
-      }
+    "images": [
+      "/images/bex_mobile/Screen1.png",
+      "/images/bex_mobile/Screen2.png",
+      "/images/bex_mobile/Screen3.png",
+      "/images/bex_mobile/Screen4.png",
+      "/images/bex_mobile/Screen5.png",
+      "/images/bex_mobile/Screen6.png",
+      "/images/bex_mobile/Screen7.png",
+      "/images/bex_mobile/Screen8.png",
+      "/images/bex_mobile/Screen9.png"
     ]
   },
   {
     "id": 2,
     "name": "Agent CRM",
     "company": "BEX Realty",
-    "description": "This is project 2",
-    "platforms": ["iOS", "Android", "Web"],
-    "role": "Product Lead, Team Lead, Mobile Architect, Backend Engineer, Frontend Engineer",
-    "tasks": [
+    "description": "<div><p>Originally conceived as a proof of concept, the Agent CRM demonstrated how the team could transition away from the legacy dashboard by leveraging <strong>Flutter</strong> to create a unified platform for <strong>Android, iOS, and Web</strong>. The success of the prototype led to a full-scale development effort, with stakeholders and the team fully backing the new system.</p><p>Architected using <strong>Flutter, Clean Architecture, and BLoC</strong>, the CRM was designed for scalability and efficiency. A robust <strong>CI/CD pipeline</strong> was implemented to streamline integration and deployment, ensuring rapid iteration. The web version was the first to launch, allowing the internal <strong>Concierge team</strong> to migrate fully before expanding the platform to mobile apps for external agents.</p><p>I led the design and development of the CRM, driving the frontend architecture and building over <strong>90% of the backend services</strong> to support essential agent workflows. The CRM empowered agents with tools to <strong>receive new leads, manage contacts, view lead details, leave notes, set reminders, and more</strong>, significantly enhancing productivity and lead management efficiency.</p></div>",
+    "platforms": [
       {
-        "id": 1,
-        "name": "Task 1",
-        "description": "This is task 1"
+        "name": "iOS",
+        "url": "https://apps.apple.com/us/app/bex-realty/id1539780134"
       },
       {
-        "id": 2,
-        "name": "Task 2",
-        "description": "This is task 2"
+        "name": "Android",
+        "url": "https://play.google.com/store/apps/details?id=com.bexrealty.mobile"
+      },
+      {
+        "name": "Web",
+        "url": "https://crm.bexrealty.com"
       }
+    ],
+    "role": "Head of Agent CRM",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Firebase",
+      "Google Maps API",
+      "Clean Architecture"
+    ],
+    "images": [
+      "/images/crm/Screen1.png",
+      "/images/crm/Screen2.png",
+      "/images/crm/Screen3.png",
+      "/images/crm/Screen4.png",
+      "/images/crm/Screen5.png",
+      "/images/crm/Screen6.png",
+      "/images/crm/Screen7.png",
+      "/images/crm/Screen8.png",
+      "/images/crm/Screen9.png",
+      "/images/crm/Screen10.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lead Market App",
+    "company": "BEX Realty",
+    "description": "<div><p>The Lead Market App was an experimental side project by BEX Realty, designed to create a <strong>marketplace for lead generation</strong>. This platform allowed companies to programmatically send leads to the system while enabling agents to browse and purchase <strong>one-off leads</strong>, offering a flexible alternative to traditional subscription-based models.</p><p>Leading a team of <strong>one designer and three developers</strong>, the system was designed, architected, and built from the ground up. <strong>Postgres and Hasura</strong> were utilized to rapidly define the database schema, providing an instant <strong>GraphQL API</strong> and a robust permission system out of the box. <strong>NestJS</strong> handled the business logic, including the creation of dynamic lead card stacks for mobile apps, <strong>payment processing via Stripe</strong>, and various operational workflows.</p><p>The project featured a full-fledged <strong>web dashboard</strong> where companies could manage their profiles, track uploaded leads, and monitor sales. On the agent side, <strong>Flutter-powered mobile applications</strong> were developed, offering a seamless experience for purchasing and managing leads. This innovative system provided a scalable and efficient solution for both lead providers and real estate agents.</p></div>",
+    "platforms": [
+      {
+        "name": "iOS",
+        "url": "https://apps.apple.com/us/app/bex-realty/id1539780134"
+      },
+      {
+        "name": "Android",
+        "url": "https://play.google.com/store/apps/details?id=com.bexrealty.mobile"
+      },
+      {
+        "name": "Web",
+        "url": "https://leadmarket.app"
+      }
+    ],
+    "role": "Head of Lead Market App",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Firebase",
+      "Clean Architecture",
+      "Vue",
+      "Nuxt",
+      "Vuetify",
+      "Vuex",
+      "Nest.js",
+      "PostgreSQL",
+      "Hasura",
+      "GraphQL",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "Google Cloud Platform",
+      "Stripe"
+    ],
+    "images": [
+      "/images/lma/Screen1.png",
+      "/images/lma/Screen2.png",
+      "/images/lma/Screen3.png",
+      "/images/lma/Screen4.png",
+      "/images/lma/Screen5.png",
+      "/images/lma/Screen6.png"
     ]
   }
 ]

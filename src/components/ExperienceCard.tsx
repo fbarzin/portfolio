@@ -35,7 +35,7 @@ function ExperienceCard({ experience }: { experience: Experience }) {
             {experience.tags.map((badge) => (
               <span
                 key={badge}
-                className="rounded-full bg-sky-900/50 px-4 py-1 text-sm font-semibold text-sky-400"
+                className="rounded-full bg-sky-900/50 px-3 py-1 text-sm font-semibold text-sky-400"
               >
                 {badge}
               </span>
