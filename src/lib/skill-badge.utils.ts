@@ -4,6 +4,10 @@ interface ISkillBadgeData {
   color: string;
 }
 
+/**
+ * Skill badges data
+ * You can find the SVG and colors here: https://simpleicons.org/
+ */
 const skillBadges: { [key: string]: ISkillBadgeData } = {
   Flutter: {
     label: 'Flutter',

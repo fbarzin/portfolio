@@ -3,7 +3,6 @@ import React from 'react';
 
 export type SkillBadge = {
   skill: string;
-  level: number;
   website: string;
 };
 
