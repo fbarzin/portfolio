@@ -3,6 +3,7 @@ import data from '../../../data/about.json';
 import ImagesCarousel from '../ImagesCarousel';
 import Image from 'next/image';
 import SocialIcons from '../SocialIcons';
+import { Button } from '../ui/button';
 
 function AboutSection() {
   return (
@@ -28,6 +29,18 @@ function AboutSection() {
             email={undefined}
             goodreads={data.goodreads}
           />
+          <a
+            href="mailto:farzadbarzin@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              variant="default"
+              className="my-6 ml-auto text-base font-bold text-white"
+            >
+              Contact Me
+            </Button>
+          </a>
         </div>
         <div
           className="sm:col-span-3"

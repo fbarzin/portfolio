@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 
 const geistSans = Geist({
@@ -33,11 +34,7 @@ export default function RootLayout({
         <div className="container mx-auto max-w-screen-2xl px-0 md:px-4">
           {children}
         </div>
-        <footer className="bottom-0 row-start-3 flex flex-wrap items-center justify-center gap-6">
-          <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Farzad Barzin. All rights reserved.
-          </p>
-        </footer>
+        <Footer />
       </body>
     </html>
   );

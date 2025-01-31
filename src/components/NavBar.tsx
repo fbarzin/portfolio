@@ -44,8 +44,8 @@ function NavBar() {
   }, []);
 
   return (
-    <div className="fixed top-0 z-10 flex w-full flex-row border-b border-gray-700 bg-black px-4 py-2">
-      <NavigationMenu className="container flex flex-row items-center justify-between">
+    <div className="fixed top-0 z-10 flex w-full border-b border-gray-700 bg-background px-4 py-2">
+      <NavigationMenu className="container mx-auto flex flex-row items-center justify-center">
         <NavigationMenuList className="flex flex-row items-center">
           {items.map((item) => (
             <NavigationMenuItem key={item.href} asChild>
@@ -67,13 +67,6 @@ function NavBar() {
           ))}
         </NavigationMenuList>
       </NavigationMenu>
-      <Button
-        variant="default"
-        onClick={() => (window.location.href = 'mailto:farzadbarzin@gmail.com')}
-        className="ml-auto text-sm font-semibold text-white"
-      >
-        Contact Me
-      </Button>
     </div>
   );
 }
