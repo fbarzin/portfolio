@@ -29,6 +29,7 @@ export default function RootLayout({
     <html lang="en" className="dark scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
       >
         <NavBar />
         <div className="container mx-auto max-w-screen-2xl px-0 md:px-4">
