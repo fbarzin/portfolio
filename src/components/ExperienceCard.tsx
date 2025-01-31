@@ -7,7 +7,7 @@ export type Experience = {
   endDate: string;
   description: string;
   location: string;
-  website: string;
+  website?: string;
   tags: string[];
   products: string[];
 };

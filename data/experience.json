@@ -7,7 +7,6 @@
     "endDate": "February 2024",
     "description": "<p>At BEX Realty, I spearheaded two major projects: the <strong>BEX Realty mobile apps</strong> and the <strong>Agent CRM</strong>. As the <strong>product manager, mobile architect, team lead, and lead developer</strong>, I wore multiple hats—driving the product vision, managing development, and ensuring seamless execution.</p> <p>I <strong>hired and led a team</strong> consisting of one designer and one developer, collaborating closely with the <strong>stakeholders</strong> to define product scope, roadmap, and release strategy. On the technical side, I <strong>architected the frontend</strong> with <strong>Flutter</strong>, utilizing <strong>BLoC</strong> and <strong>Clean Architecture</strong> for maintainability and scalability.</p> <p>For the <strong>CRM backend</strong>, I built over <strong>90% of the services</strong> using <strong>FeathersJS, Sequelize, MySQL, and Postgres</strong>, ensuring a robust and scalable infrastructure. Through this project, I combined <strong>engineering leadership, product ownership, and hands-on development</strong>, delivering high-impact tools that empowered real estate agents.</p>",
     "location": "Boca Raton, FL (Remote)",
-    "website": "https://www.bexrealty.com",
     "tags": [
       "Flutter",
       "Dart",
@@ -36,7 +35,6 @@
     "endDate": "July 2021",
     "description": "<p>I developed a <strong>mobile app for agents</strong> to manage leads using <strong>Flutter, Dart, and RxDart</strong>, ensuring a seamless user experience.</p><p>Additionally, I architected and built a <strong>Backend For Frontend (BFF)</strong> system for mobile apps using <strong>Kotlin, Ktor, and MySQL</strong>, optimizing performance and scalability.</p><p>I also designed and developed a <strong>messenger web app</strong> for Client Concierge Representatives using <strong>Nuxt, Vue, WebSocket, and Twilio</strong>, enhancing communication workflows.</p> <p>Furthermore, I developed and maintained <strong>backend APIs</strong> and the main website using <strong>FeathersJS, Postgres, and Vue.js</strong>, ensuring a robust and scalable infrastructure.</p>",
     "location": "Boca Raton, FL",
-    "website": "https://www.bexrealty.com",
     "tags": [
       "Flutter",
       "Dart",
