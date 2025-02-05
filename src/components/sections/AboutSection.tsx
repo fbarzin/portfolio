@@ -4,6 +4,7 @@ import ImagesCarousel from '../ImagesCarousel';
 import Image from 'next/image';
 import SocialIcons from '../SocialIcons';
 import { Button } from '../ui/button';
+import { ContactRound, CornerRightUpIcon } from 'lucide-react';
 
 function AboutSection() {
   return (
@@ -36,9 +37,19 @@ function AboutSection() {
           >
             <Button
               variant="default"
-              className="my-6 ml-auto text-base font-bold text-white"
+              className="mt-6 transform font-semibold text-white transition duration-300 hover:scale-105"
             >
               Contact Me
+              <ContactRound className="inline-block" />
+            </Button>
+          </a>
+          <a href="/resume.pdf" target="_blank" rel="noreferrer">
+            <Button
+              className="mt-2 transform bg-emerald-200/10 px-3 font-semibold text-emerald-400 transition duration-300 hover:scale-105"
+              variant="ghost"
+            >
+              View Resume
+              <CornerRightUpIcon className="inline-block" />
             </Button>
           </a>
         </div>

@@ -46,7 +46,7 @@ function NavBar() {
   return (
     <div className="fixed top-0 z-10 flex w-full border-b border-gray-700 bg-background px-4 py-2">
       <NavigationMenu className="container mx-auto flex flex-row items-center justify-center">
-        <NavigationMenuList className="flex flex-row items-center">
+        <NavigationMenuList className="flex flex-row items-center gap-1">
           {items.map((item) => (
             <NavigationMenuItem key={item.href} asChild>
               <Button
@@ -55,7 +55,7 @@ function NavBar() {
                 }
                 className={
                   activeSection === item.href.slice(1)
-                    ? 'font-semibold text-white'
+                    ? 'bg-slate-50/10 font-semibold text-slate-300'
                     : 'text-gray-200'
                 }
               >

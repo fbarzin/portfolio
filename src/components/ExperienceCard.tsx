@@ -15,7 +15,7 @@ export type Experience = {
 function ExperienceCard({ experience }: { experience: Experience }) {
   return (
     <a href={experience.website} target="_blank" rel="noreferrer">
-      <div className="group rounded-lg border border-gray-800 p-4 transition duration-300 hover:border hover:border-gray-700 hover:bg-gray-900 hover:shadow-lg">
+      <div className="group rounded-lg border border-gray-800 bg-slate-950 p-4 transition duration-300 hover:border hover:border-gray-700 hover:bg-gray-800 hover:shadow-lg">
         <div>
           <h3 className="mb-1 text-xl font-bold group-hover:text-sky-400">
             {experience.company}

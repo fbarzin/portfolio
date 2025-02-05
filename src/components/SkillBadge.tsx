@@ -18,7 +18,7 @@ function SkillBadge({ skillBadge }: { skillBadge: SkillBadge }) {
   return (
     <a href={skillBadge.website} target="_blank" rel="noreferrer">
       <div
-        className={`text-md flex flex-row items-center rounded-sm border-2 border-solid border-gray-700 px-2 py-1 font-semibold`}
+        className={`text-md flex flex-row items-center rounded-sm border-2 border-solid border-gray-700 px-2 py-1 font-semibold transition-transform hover:scale-105`}
         style={{
           backgroundColor: skillBadgeColor,
           color: foregroundColor,

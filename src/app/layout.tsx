@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-gradient-to-tr from-slate-950 via-slate-900 to-slate-950 antialiased`}
       >
         <NavBar />
         <div className="container mx-auto max-w-screen-2xl px-0 md:px-4">
