@@ -45,7 +45,7 @@ function AboutSection() {
           </a>
           <a href="/resume.pdf" target="_blank" rel="noreferrer">
             <Button
-              className="mt-2 transform bg-emerald-200/10 px-3 font-semibold text-emerald-400 transition duration-300 hover:scale-105"
+              className="mt-2 transform bg-emerald-200/10 px-3 font-semibold text-emerald-400 transition duration-300 hover:scale-105 hover:text-emerald-400"
               variant="ghost"
             >
               View Resume
