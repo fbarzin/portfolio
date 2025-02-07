@@ -3,7 +3,7 @@
     "id": 1,
     "company": "BEX Realty",
     "position": "Staff Software Engineer",
-    "startDate": "July 2021",
+    "startDate": "June 2021",
     "endDate": "February 2024",
     "description": "<div>At BEX Realty, I spearheaded two major projects: the <strong>BEX Realty mobile apps</strong> and the <strong>Agent CRM</strong>. As the <strong>product manager, mobile architect, team lead, and lead developer</strong>, I wore multiple hats—driving the product vision, managing development, and ensuring seamless execution.</div> <div>I <strong>hired and led a team</strong> consisting of one designer and one developer, collaborating closely with the <strong>stakeholders</strong> to define product scope, roadmap, and release strategy. On the technical side, I <strong>architected the frontend</strong> with <strong>Flutter</strong>, utilizing <strong>BLoC</strong> and <strong>Clean Architecture</strong> for maintainability and scalability.</div> <div>For the <strong>CRM backend</strong>, I built over <strong>90% of the services</strong> using <strong>FeathersJS, Sequelize, MySQL, and Postgres</strong>, ensuring a robust and scalable infrastructure. Through this project, I combined <strong>engineering leadership, product ownership, and hands-on development</strong>, delivering high-impact tools that empowered real estate agents.</div>",
     "location": "Boca Raton, FL (Remote)",
