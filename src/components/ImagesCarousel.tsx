@@ -36,7 +36,7 @@ export function ImagesCarousel({
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem
-            key={index}
+            key={`${image}-${index}`}
             className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
           >
             <div className="p-2">
